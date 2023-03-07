@@ -66,7 +66,7 @@ public class Solver{
         //Implemente su metodo aqui. Sientase libre de implementar métodos adicionales
         Node inicial = actual; /*Iniciamos el recorrido en el nodo (0, 0, 0) */
         String aux = Magia(maze, inicial, way, danger, visited);  /*Manda los datos requeridos para que ocurra la magia (se resuelva el laberinto) */
-        String answer = "[" + aux + "]"; /*Colocamos nuestra respuesta en el formato de entrega */
+        String answer = "[" + aux + "]"; /*Colocamos nuestra respuesta en el formato de entrega :D */
 
         return answer;
         }
